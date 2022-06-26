@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tag{
+    font-size: 26px;
+}
+.main{
+    background-image:url(./Screenshot\ 2022-06-26\ 180945.png);
+    background-repeat:no-repeat ;
+    width: 100%;
+    height: 100%;
+    background-size: ;
+}

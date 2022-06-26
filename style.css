@@ -3,3 +3,60 @@
     margin: 0;
     box-sizing:border-box ;
 }
+.page-coneiner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(204, 43%, 93%);
+ }
+.article{
+    border: 1px solid black;
+    border-radius: 11px;
+    box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    max-width: 600px;
+    width: 100%;
+    
+}
+.article-top{
+    background-color: #fff;
+    padding: 30px;
+    border-top-left-radius: 11px;
+    border-top-right-radius:11px ;
+}
+.article-bottom{
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    display: flex;
+}
+.article-bottom-right{
+    flex: 1;
+    background-color: hsl(179, 62%, 43%);
+    opacity: 0.8;
+    color: #fff;
+    padding: 30px 50px 30px 30px;
+}
+.article-bottom-left{
+    flex: 1;
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    color: #fff;
+}
+.article-btn{
+    background-color: hsl(71, 73%, 54%);
+    box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 6px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    margin-top: 30px;
+}
+.article-bottom-right-paragraph{
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.article-bottom-right-title{
+    margin-top: 5px; 
+}
